@@ -70,14 +70,14 @@
     "build:commonjs": "babel src --out-dir lib",
     "build:umd": "webpack --config webpack.dev.js",
     "build:umd:min": "webpack --config webpack.prod.js",
-    "prepare": "npm run clean && npm run check && npm run build"
+    "prepare": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zeroturnaround/sql-formatter.git"
+    "url": "https://github.com/factorialco/sql-formatter.git"
   },
   "bugs": {
-    "url": "https://github.com/zeroturnaround/sql-formatter/issues"
+    "url": "https://github.com/factorialco/sql-formatter/issues"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
